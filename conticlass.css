@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+.first-container-1 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 85, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+h1{
+    color: cadetblue;
+}
+.h1{
+    color: #fff;
+}
+.container {
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+}
+
+.secound-container-2{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(115, 115, 211);
+}
+
+.container .form-1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+}
+
+.form-1 input, select {
+    padding: 5px 2px;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+.form-1 input, select:focus {
+    outline: none;
+}
+
+.secound-container-2 .form-2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+}
+
+.form-2 input,select{
+    padding: 5px 2px ;
+    border: none;
+    border-bottom: 2px solid gray;
+    color: rgb(219, 219, 219);
+}
+
+.form-2 input,select:focus{
+    outline: none;
+}
+ .select-C{
+    background-color: rgb(115, 115, 211);   
+}
+
+.input-C {
+    background-color: rgb(115, 115, 211);  
+}
+
+.checkbox, a {
+    color: #fff;
+    margin-top: 20px;
+}
+.form-2 .Badge {
+    padding: 9px 20px ;
+    border-radius: 20px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    margin: 20px;
+}
